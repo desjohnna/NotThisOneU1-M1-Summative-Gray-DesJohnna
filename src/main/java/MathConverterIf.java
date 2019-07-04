@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class MathConverterIf {
 
     public static void main(String[] args) {
-        //Ask for a number
+        //Printing request for user to input a number
         System.out.println("Please enter a number between 1 - 12.");
 
 
-        //Grab number and store it.
+        //Setting up scanner and assigning the input to variable num
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
 
-        //Logic to match number to month and print corresponding month
+        //if/else statement to match number to month and print corresponding month
         if (num == 1) {
             System.out.println("January");
         } else if (num == 2) {

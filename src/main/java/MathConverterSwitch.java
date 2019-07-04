@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class MathConverterSwitch {
     public static void main(String[] args) {
-        //Ask for number
+        //Printing request for user to input a number
         System.out.println("Please enter a number between 1 - 12.");
 
-        //Grab number and store it
+        //Setting up scanner and assigning the input to variable x
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
 
